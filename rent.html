@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rent a Home | Urban Nest Realty</title>
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="rent">
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="brand" href="index.html"><img src="images/logo.png" alt="Urban Nest Realty"></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="buy.html">Buy</a></li><li><a href="rent.html" class="active">Rent</a></li><li><a href="areas.html">Area Guides</a></li><li><a href="projects.html">New Projects</a></li><li><a href="sell.html">Sell With Us</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="faq.html">FAQ</a></li></ul></nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <h1>Rent a Home</h1>
+    <p>Every rental on this page has been visited and checked by our team. Filter by area, type, bedrooms and monthly rent, and open any home for its full facts and deposit terms.</p>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <div class="filter-bar">
+      <div><label for="fArea">Area</label><select id="fArea"><option value="">Any area</option></select></div>
+      <div><label for="fType">Property Type</label><select id="fType">
+        <option value="">Any type</option><option>House</option><option>Flat</option><option>Penthouse</option><option>Studio</option><option>Portion</option>
+      </select></div>
+      <div><label for="fBeds">Bedrooms</label><select id="fBeds">
+        <option value="">Any</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5+</option>
+      </select></div>
+      <div><label for="fPrice">Price Range</label><select id="fPrice"></select></div>
+      <div><label for="fSort">Sort By</label><select id="fSort">
+        <option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option>
+      </select></div>
+    </div>
+    <div class="results-line"><p id="resultCount"></p><button class="link-btn" id="clearFilters" type="button">Clear all filters</button></div>
+    <div class="grid" id="listingGrid"></div>
+  </div>
+</section>
+
+<div class="lead-band">
+  <div class="wrap lead-in">
+    <p>This demo website was designed and built by Interlinkz. Like the look of it?</p>
+    <div class="lead-actions">
+      <a class="btn btn-brass" href="https://interlinkz.com/contact">Want a website like this? Talk to Interlinkz</a>
+      <a class="lead-link" href="https://interlinkz.com/contact">Contact Interlinkz</a>
+    </div>
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div>
+      <span class="foot-logo"><img src="images/logo.png" alt="Urban Nest Realty"></span>
+      <p>Houses, flats and rentals with honest prices, full facts and no pressure. Every listing is visited and checked by our own team before it goes live.</p>
+    </div>
+    <div>
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="buy.html">Buy a Home</a></li>
+        <li><a href="rent.html">Rent a Home</a></li>
+        <li><a href="areas.html">Area Guides</a></li>
+        <li><a href="projects.html">New Projects</a></li>
+        <li><a href="sell.html">Sell With Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Agency</h3>
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <ul>
+        <li>Urban Nest Realty</li>
+        <li>22 Demo Avenue, Sample City</li>
+        <li>Phone: 0300 0000000</li>
+        <li>Email: hello@urbannest.example.com</li>
+        <li>Monday to Saturday: 10 am to 8 pm</li>
+        <li>Sunday: 11 am to 5 pm</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">
+    <p>Built by <a href="https://interlinkz.com">Interlinkz</a></p>
+    <p>Urban Nest Realty is a demo portfolio website. All listings, prices and details are sample content for design display only.</p>
+  </div>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
